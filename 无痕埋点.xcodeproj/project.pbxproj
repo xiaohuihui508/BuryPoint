@@ -35,6 +35,7 @@
 		C1DD01A921DDA4D200B15B48 /* CrashAvoidManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01A421DDA4D200B15B48 /* CrashAvoidManager.m */; };
 		C1DD01AA21DDA4D200B15B48 /* NSObject+avoid.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01A521DDA4D200B15B48 /* NSObject+avoid.m */; };
 		C1DD01AB21DDA4D200B15B48 /* NSArray+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01A821DDA4D200B15B48 /* NSArray+safe.m */; };
+		C1DD01AE21DDA90400B15B48 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01AD21DDA90400B15B48 /* MineVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		C1DD01A621DDA4D200B15B48 /* CrashAvoidConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashAvoidConst.h; sourceTree = "<group>"; };
 		C1DD01A721DDA4D200B15B48 /* CrashAvoidManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashAvoidManager.h; sourceTree = "<group>"; };
 		C1DD01A821DDA4D200B15B48 /* NSArray+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safe.m"; sourceTree = "<group>"; };
+		C1DD01AC21DDA90400B15B48 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		C1DD01AD21DDA90400B15B48 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				C1DD019621DD9E0E00B15B48 /* SecondViewController.m */,
 				C1DD019321DD9E0D00B15B48 /* TestTableview.h */,
 				C1DD019A21DD9E0E00B15B48 /* TestTableview.m */,
+				C1DD01AC21DDA90400B15B48 /* MineVC.h */,
+				C1DD01AD21DDA90400B15B48 /* MineVC.m */,
 				C1DD013221DD9DD900B15B48 /* Main.storyboard */,
 				C1DD013521DD9DDC00B15B48 /* Assets.xcassets */,
 				C1DD013721DD9DDC00B15B48 /* LaunchScreen.storyboard */,
@@ -412,6 +417,7 @@
 				C1DD019D21DD9E0E00B15B48 /* SecondViewController.m in Sources */,
 				C1DD013121DD9DD900B15B48 /* ViewController.m in Sources */,
 				C1DD01A921DDA4D200B15B48 /* CrashAvoidManager.m in Sources */,
+				C1DD01AE21DDA90400B15B48 /* MineVC.m in Sources */,
 				C1DD018521DD9DFD00B15B48 /* DataContainer.m in Sources */,
 				C1DD018A21DD9DFD00B15B48 /* UIGestureRecognizer+Analysis.m in Sources */,
 				C1DD018E21DD9DFD00B15B48 /* TestModel.m in Sources */,
