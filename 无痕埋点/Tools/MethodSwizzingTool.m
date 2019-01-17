@@ -12,8 +12,7 @@
 @implementation MethodSwizzingTool
 
 
-+(void)swizzingForClass:(Class)cls originalSel:(SEL)originalSelector swizzingSel:(SEL)swizzingSelector
-{
++  (void)swizzingForClass:(Class)cls originalSel:(SEL)originalSelector swizzingSel:(SEL)swizzingSelector {
     Class class = cls;
     Method originalMethod = class_getInstanceMethod(class, originalSelector);
     Method  swizzingMethod = class_getInstanceMethod(class, swizzingSelector);
@@ -28,16 +27,10 @@
                             swizzingSelector,
                             method_getImplementation(originalMethod),
                             method_getTypeEncoding(originalMethod));
-    }else{
+    } else {
         
         method_exchangeImplementations(originalMethod, swizzingMethod);
     }
 }
 
-+(NSDictionary *)getConfig
-{
-    NSString * filePath = [[NSBundle mainBundle] pathForResource:@"Analysis" ofType:@"plist"];
-    NSDictionary * dic = [NSDictionary dictionaryWithContentsOfFile:filePath];
-    return dic;
-}
 @end

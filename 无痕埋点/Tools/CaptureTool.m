@@ -11,8 +11,7 @@
 
 @implementation CaptureTool
 
-+(id)captureVarforInstance:(id)instance varName:(NSString *)varName
-{
++ (id)captureVarforInstance:(id)instance varName:(NSString *)varName {
     id value = [instance valueForKey:varName];
 
     unsigned int count;
@@ -56,8 +55,7 @@
 }
 
 
-+(id)captureVarforInstance:(id)instance withPara:(NSDictionary *)para
-{
++ (id)captureVarforInstance:(id)instance withPara:(NSDictionary *)para {
     NSString * properyName = para[@"propertyName"];
     NSString * propertyPath = para[@"propertyPath"];
     if (propertyPath.length > 0) {
@@ -68,8 +66,7 @@
     return [[self class] captureVarforInstance:instance varName:properyName];
 }
 
-+(id)captureVarforInstance:(id)instance withKeys:(NSArray *)keyArray
-{
++ (id)captureVarforInstance:(id)instance withKeys:(NSArray *)keyArray {
     id result = [instance valueForKey:keyArray[0]];
     
     if (keyArray.count > 1 && result) {

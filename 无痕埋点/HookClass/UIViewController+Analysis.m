@@ -12,8 +12,7 @@
 
 @implementation UIViewController (Analysis)
 
-+(void)load
-{
++ (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         SEL originalAppearSelector = @selector(viewWillAppear:);
@@ -32,20 +31,17 @@
 }
 
 
--(void)user_viewWillAppear:(BOOL)animated
-{
+- (void)user_viewWillAppear:(BOOL)animated {
     [self user_viewWillAppear:animated];
 }
 
 
--(void)user_viewWillDisappear:(BOOL)animated
-{
+- (void)user_viewWillDisappear:(BOOL)animated {
     [self user_viewWillDisappear:animated];
     
 }
 
--(void)user_viewDidLoad
-{
+- (void)user_viewDidLoad {
     
     [self user_viewDidLoad];
     

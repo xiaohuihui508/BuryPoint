@@ -11,9 +11,7 @@
 @interface MethodSwizzingTool : NSObject
 
 
-+(void)swizzingForClass:(Class)cls originalSel:(SEL)originalSelector swizzingSel:(SEL)swizzingSelector;
++ (void)swizzingForClass:(Class)cls originalSel:(SEL)originalSelector swizzingSel:(SEL)swizzingSelector;
 
-
-+(NSDictionary *)getConfig;
 
 @end

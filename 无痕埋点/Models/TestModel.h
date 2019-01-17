@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LikeModel.h"
+
 @interface TestModel : NSObject
 
 @property(nonatomic,assign)NSInteger age;

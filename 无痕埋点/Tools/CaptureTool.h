@@ -17,7 +17,7 @@
  @param varName 属性的名字
  @return 属性对应的value
  */
-+(id)captureVarforInstance:(id)instance varName:(NSString *)varName;
++ (id)captureVarforInstance:(id)instance varName:(NSString *)varName;
 
 
 
@@ -28,7 +28,7 @@
  @param para 配置表中的pagePara值
  @return 取到的值
  */
-+(id)captureVarforInstance:(id)instance withPara:(NSDictionary *)para;
++ (id)captureVarforInstance:(id)instance withPara:(NSDictionary *)para;
 
 
 @end

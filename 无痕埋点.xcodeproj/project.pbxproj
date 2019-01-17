@@ -268,13 +268,13 @@
 		C1DD01A121DDA4D200B15B48 /* CrashAvoid */ = {
 			isa = PBXGroup;
 			children = (
-				C1DD01A221DDA4D200B15B48 /* NSObject+avoid.h */,
 				C1DD01A321DDA4D200B15B48 /* NSArray+safe.h */,
-				C1DD01A421DDA4D200B15B48 /* CrashAvoidManager.m */,
+				C1DD01A821DDA4D200B15B48 /* NSArray+safe.m */,
+				C1DD01A221DDA4D200B15B48 /* NSObject+avoid.h */,
 				C1DD01A521DDA4D200B15B48 /* NSObject+avoid.m */,
 				C1DD01A621DDA4D200B15B48 /* CrashAvoidConst.h */,
 				C1DD01A721DDA4D200B15B48 /* CrashAvoidManager.h */,
-				C1DD01A821DDA4D200B15B48 /* NSArray+safe.m */,
+				C1DD01A421DDA4D200B15B48 /* CrashAvoidManager.m */,
 			);
 			path = CrashAvoid;
 			sourceTree = "<group>";

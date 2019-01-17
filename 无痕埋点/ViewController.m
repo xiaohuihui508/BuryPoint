@@ -19,13 +19,13 @@
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property(nonatomic,strong)TestTableview * tableView;
+@property(nonatomic,strong)TestTableview *tableView;
 
-@property(nonatomic,strong)NSMutableArray * dataArray;
+@property(nonatomic,strong)NSMutableArray *dataArray;
 
-@property(nonatomic,strong)NSString * testSTR;
+@property(nonatomic,strong)NSString *testSTR;
 
-@property(nonatomic,strong)NSString * testPara;
+@property(nonatomic,strong)NSString *testPara;
 
 
 @end
